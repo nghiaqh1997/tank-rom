@@ -1,7 +1,0 @@
-module vga_pll(clock,clock_25);
-input clock;
-output reg clock_25;
-always@(posedge clock)
-	clock_25<=~clock_25;
-	
-endmodule 

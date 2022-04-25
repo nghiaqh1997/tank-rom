@@ -1,4 +1,4 @@
-.bak
+*.bak
 db
 greybox_tmp
-.v.bak
+*.v.bak
