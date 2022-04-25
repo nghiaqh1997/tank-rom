@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : -4.435
+TNS   : -57.565
+
+Type  : Slow Model Setup 'frequency_divider_by2:comb_15|out_clk'
+Slack : -2.077
+TNS   : -60.014
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -1.614
+TNS   : -18.860
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.695
+TNS   : -5.385
+
+Type  : Slow Model Hold 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Hold 'frequency_divider_by2:comb_15|out_clk'
+Slack : 0.649
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.631
+TNS   : -19.961
+
+Type  : Slow Model Minimum Pulse Width 'frequency_divider_by2:comb_15|out_clk'
+Slack : -0.611
+TNS   : -39.104
+
+Type  : Slow Model Minimum Pulse Width 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : -0.611
+TNS   : -28.106
+
+Type  : Fast Model Setup 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : -1.399
+TNS   : -15.756
+
+Type  : Fast Model Setup 'frequency_divider_by2:comb_15|out_clk'
+Slack : -0.250
+TNS   : -4.662
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.119
+TNS   : -1.105
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.725
+TNS   : -3.445
+
+Type  : Fast Model Hold 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'frequency_divider_by2:comb_15|out_clk'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -16.380
+
+Type  : Fast Model Minimum Pulse Width 'frequency_divider_by2:comb_15|out_clk'
+Slack : -0.500
+TNS   : -32.000
+
+Type  : Fast Model Minimum Pulse Width 'keyboard:comb_14|debouncer:debounce|O0'
+Slack : -0.500
+TNS   : -23.000
+
+------------------------------------------------------------

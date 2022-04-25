@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|greentankup:comb_2660|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bs61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|redtankleft:comb_2659|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_v071.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|bulletleft:b4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9171.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|bulletup:b2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kq61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|explosion:e1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hq61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|greentankleft:comb_2661|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h271.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|reduptank:comb_2658|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_pq61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|bulletleft:b3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9171.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|bulletup:b1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kq61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|project|controller:comb_29|explosion:e2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hq61.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

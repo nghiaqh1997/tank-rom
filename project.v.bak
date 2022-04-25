@@ -1,0 +1,46 @@
+module project
+	(
+		CLOCK_50,						
+		
+        KEY,
+		
+		//VGA_CLK,   						
+		VGA_HS,							
+		VGA_VS,							
+		//VGA_BLANK,						
+		//VGA_SYNC,						
+		VGA_R,   						
+		VGA_G,	 						
+		VGA_B,   						
+		PS2_CLK,                   
+		PS2_DAT,                   
+		SW
+	);
+	input [1:0] KEY;
+	input [2:0] SW;
+	input CLOCK_50,PS2_CLK,PS2_DAT;
+	//output			VGA_CLK;   				
+	output			VGA_HS;					
+	output			VGA_VS;					
+	//output			VGA_BLANK;				
+	//output			VGA_SYNC;				
+	output	[3:0]	VGA_R;   				
+	output	[3:0]	VGA_G;	 				
+	output	[3:0]	VGA_B;   				
+	
+	
+	
+	assign start = ~SW[2];
+	assign mapselect = SW[1:0];
+	
+	Keyboard_PS2 k1(
+	.clk_in(CLOCK_50),				
+	.rst_n_in(resetn),			
+	.key_clk(PS2_CLK),			
+	.key_data(PS2_DAT),			
+	.out(keyboard_output));
+	
+	
+		
+		
+endmodule

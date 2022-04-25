@@ -1,0 +1,13 @@
+module tank(clk25,resetn,xpos,ypos,player,x_tank,y_tank,moving,start,direction,fire);
+input clk25,resetn;
+input [9:0]xpos;
+input [8:0]ypos;
+input [4:0]player;
+output [9:0]x_tank;
+output [8:0]y_tank;
+output moving;
+input start;
+output [3:0]direction;
+output fire;
+
+

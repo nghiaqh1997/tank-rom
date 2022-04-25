@@ -1,0 +1,12 @@
+Info (10281): Verilog HDL Declaration information at key.v(6): object "up1" differs only in case from object "UP1" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(6): object "down1" differs only in case from object "DOWN1" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(6): object "left1" differs only in case from object "LEFT1" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(6): object "right1" differs only in case from object "RIGHT1" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(6): object "fire1" differs only in case from object "FIRE1" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(7): object "up2" differs only in case from object "UP2" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(7): object "down2" differs only in case from object "DOWN2" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(7): object "left2" differs only in case from object "LEFT2" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(7): object "right2" differs only in case from object "RIGHT2" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(8): object "fire2" differs only in case from object "FIRE2" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(5): object "no" differs only in case from object "NO" in the same scope
+Info (10281): Verilog HDL Declaration information at key.v(5): object "yes" differs only in case from object "YES" in the same scope

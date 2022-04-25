@@ -1,0 +1,13 @@
+module game(first_screen,pixel_col,pixel_row,CLOCK_50,clk25,resetn,player1,player2,player_screen,red_score,green_score);
+output [11:0]first_screen;
+input [9:0]pixel_col;
+input [8:0]pixel_row;
+input clk25,CLOCK_50;
+input resetn;
+input [4:0]player1,player2;
+output red_score,green_score;
+
+wire [9:0]x;
+wire [8:0]y;
+reg areset,breset;
+

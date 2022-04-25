@@ -1,0 +1,41 @@
+module vga_controller(
+input clk,resetn
+output [9:0]pixel_row
+output [8:0]pixel_col
+output VSYNC,HSYNC,colour_enable
+);
+
+parameter
+		HORIZ_PIXELS = 640,  HCNT_MAX  = 800, 		
+		HSYNC_START  = 656,  HSYNC_END = 752,
+
+		VERT_PIXELS  = 480,  VCNT_MAX  = 525,
+		VSYNC_START  = 490,  VSYNC_END = 492;
+
+always@(posedge clk)
+begin
+		if(!resetn)begin
+			pixel_col<=0;
+			pixel_row<=0;
+			colour_enable<=0;
+			VSYNC<=0;
+			HSYNC<=0;
+		end else begin
+			if(pixel_col==HCNT_MAX)
+				pixel_col<=11'd0;
+			else pixel_col<=pixel_col+1'd1;
+			
+			if((pixel_col>=HCNT_MAX)&&(pixel_row>=VCNT_MAX))
+				pixel_row<=11'd0;
+			else if (pixel_col==HCNT_MAX)
+				pixel_row<=pixel_row+1'd1;
+		
+			HSYNC <= ~((pixel_col >= HSYNC_START) && (pixel_col <= HSYNC_END));
+			VSYNC <= ~((pixel_row >= VSYNC_START) && (pixel_row <= VSYNC_END));	
+			colour_enable <= ((pixel_column < HORIZ_PIXELS) && (pixel_row < VERT_PIXELS));
+		end
+end
+
+endmodule
+		
+
